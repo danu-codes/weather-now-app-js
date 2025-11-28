@@ -45,7 +45,7 @@ function displayWeather(data, city) {
     const condition = data.weather[0].main;
 
     printCity.textContent = "📍 " + city.toUpperCase() + ", " + data.sys.country;
-    printTemp.textContent = "🌡" + temp + "°C";
+    printTemp.textContent = "🌡" + Math.floor(temp) + "°C";
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const months = [
