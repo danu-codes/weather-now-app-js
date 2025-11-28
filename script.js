@@ -74,31 +74,37 @@ function displayWeather(data, city) {
 function changeBackground(weather) {
     const card1 = document.querySelector(".current-weather-card");
     const card2 = document.querySelector(".weather-details-container");
-
+    const card3 = document.querySelector(".forecast-container");
 
     if (weather === "Clear") {
-        card1.style.background = "#FFEBAA";
-        card2.style.background = "#FFF7D6";
+        card1.style.background = "#fcdc76ff";
+        card2.style.background = "#f6e5aeff";
+        card3.style.background = "#f7f2e3ff";
 
     } else if (weather === "Clouds") {
         card1.style.background = "#C3CDD7";
         card2.style.background = "#E2E7EC";
+        card3.style.background = "#f3f7fbff";
 
     } else if (weather === "Rain") {
         card1.style.background = "#A5C9FF";
         card2.style.background = "#D4E4FF";
+        card3.style.background = "#e7eefcff";
 
     } else if (weather === "Snow") {
         card1.style.background = "#E8F4FF";
         card2.style.background = "#F6FBFF";
+        card3.style.background = "#fafafaff";
 
     } else if (weather === "Thunderstorm") {
         card1.style.background = "#5A6473";
         card2.style.background = "#A5AEBB";
+        card3.style.background = "#c6d1e0ff";
 
     } else {
-        card1.style.background = "#DFF7F7";
-        card2.style.background = "#ECFFFF";
+        card1.style.background = "#c6fafaff";
+        card2.style.background = "#dcfafaff";
+        card3.style.background = "#dcfafaff";
     }
 
 }
