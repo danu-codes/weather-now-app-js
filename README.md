@@ -9,7 +9,7 @@ Features
 - Automatically updates the background color based on the current weather.
 - Search for any city worldwide.
 
-## Technologies Used
+Technologies Used
 =====================
 - HTML
 - CSS
