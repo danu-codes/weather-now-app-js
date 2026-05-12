@@ -15,3 +15,11 @@ Technologies Used
 - CSS
 - JavaScript
 - OpenWeatherMap API
+
+🌐 Live Demo
+=====================
+👉 Try it here: https://danu-codes.github.io/weather-now-app-js/
+
+📸 UI Preview
+=====================
+<img width="1896" height="874" alt="image" src="https://github.com/user-attachments/assets/0a64cf14-6b58-4453-ab69-bcfe2af389d0" />
